@@ -3,6 +3,7 @@ const apiurl = "https://api.openweathermap.org/data/2.5/weather?&units=metric&q=
 const searchbox = document.querySelector(".search input");
 const searchbtn = document.querySelector(".search button");
 const weathericon = document.querySelector(".weather-icon");
+const city = document.querySelector(".city").innerHTML;
 async function checkWeather(city) {
     const response = await fetch(apiurl + city + `&appid=${apikey}`);
     if (response.status == 404) {
@@ -37,7 +38,7 @@ async function checkWeather(city) {
             document.querySelector(".main-box").classList.add("mist");
         }
         document.body.style.backgroundImage =
-        "url('https://source.unsplash.com/1600x900/?" + data.name + "')";
+        "url('https://source.unsplash.com/1600x900/?" + city + "')";
 
         document.querySelector(".weather").style.display = "block"
         document.querySelector(".error").style.display = "none"
