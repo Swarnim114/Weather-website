@@ -38,7 +38,7 @@ Go to the project directory
 
 ![London](https://github.com/Swarnim114/Weather-website/blob/2a1f1600619300228628b9790a515bdd5c2a9cd1/assets/Screenshot%20from%202024-02-06%2018-48-14.png?raw=true "Optional Title")
 
-![Oslo](assets/Screenshot from 2024-02-06 19-18-21.png?raw=true "Optional Title")
+![Oslo](https://github.com/Swarnim114/Weather-website/blob/4045ec9e44487b285fa82da5b5ca5bcd582cb130/assets/Screenshot%20from%202024-02-06%2019-18-21.png?raw=true "Optional Title")
 
 ![San Fransisco](https://github.com/Swarnim114/Weather-website/blob/2a1f1600619300228628b9790a515bdd5c2a9cd1/assets/Screenshot%20from%202024-02-06%2018-51-07.png?raw=true "Optional Title")
 
