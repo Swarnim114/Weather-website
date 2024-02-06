@@ -36,6 +36,8 @@ async function checkWeather(city) {
             weathericon.src = "images/mist.png";
             document.querySelector(".main-box").classList.add("mist");
         }
+        document.body.style.backgroundImage =
+        "url('https://source.unsplash.com/1600x900/?" + data.name + "')";
 
         document.querySelector(".weather").style.display = "block"
         document.querySelector(".error").style.display = "none"

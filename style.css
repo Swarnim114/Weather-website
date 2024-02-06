@@ -4,8 +4,13 @@
     font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
 }
-body{
-    background-color: #22092C;
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://source.unsplash.com/1600x900/?');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 .main-box{
     width: 90%;
@@ -16,6 +21,9 @@ body{
     padding: 40px 35px;
     border-radius: 20px;
     text-align: center;
+    backdrop-filter: blur(11.5px);
+    -webkit-backdrop-filter: blur( 11.5px );
+    overflow: hidden;
 }
 .clear{
     background: linear-gradient(12deg, #ebca85, #c9f3fa);
