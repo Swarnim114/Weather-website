@@ -30,6 +30,14 @@ body {
     overflow: hidden;
     
 }
+body::-webkit-scrollbar {
+    width: 0px;
+}
+
+
+
+
+
 .clear {
     background: linear-gradient(12deg, rgba(235, 202, 133, 0.6), rgba(201, 243, 250, 0.7));
 }
@@ -132,6 +140,7 @@ body {
     display: none;
     font-weight: 700;
 }
+
 
 
 
