@@ -11,14 +11,14 @@ body {
     margin: 0;
     padding: 0;
     
-    background-image: url('https://source.unsplash.com/1600x900?paris');
+    background-image: url('https://source.unsplash.com/1920x1080?paris');
     background-size: cover;
     background-position: center;
     height: 100vh;
 }
 .main-box{
     position: sticky;
-    top: 20%;
+    top: 10%;
     width: 90%;
     max-width: 470px;
     background: linear-gradient(12deg, rgba(74, 98, 107, 0.6), rgba(210, 214, 219, 0.7));
