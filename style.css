@@ -11,7 +11,7 @@ body {
     margin: 0;
     padding: 0;
     
-    background-image: url('https://source.unsplash.com/1920x1080?paris');
+    background-image: url('https://source.unsplash.com/photos/paris');
     background-size: cover;
     background-position: center;
     height: 100vh;
