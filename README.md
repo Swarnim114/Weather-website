@@ -1,5 +1,5 @@
 
-# Weather Web App 
+# Weather Web App
 
 Easily check the Weather in any city.
 
@@ -27,7 +27,7 @@ Go to the project directory
 ## Features
 
 - Fetches the weather from open weather api.
-- Changes background to something related to the city.
+- Changes background to something related to the city.(Currently not working)
 - Cross platform
 
 
