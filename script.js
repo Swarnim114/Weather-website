@@ -1,4 +1,5 @@
 const apikey = "094a99116cb5eeaa1ceb6f345298f200";
+const unsplashApiKey = "094a99116cb5eeaa1ceb6f345298f200";
 const apiurl = "https://api.openweathermap.org/data/2.5/weather?&units=metric&q=";
 const searchbox = document.querySelector(".search input");
 const searchbtn = document.querySelector(".search button");
@@ -36,12 +37,26 @@ async function checkWeather(city) {
             document.querySelector(".main-box").classList.add("mist");
         }
 
-        // Using a specific image URL for Paris as an example
-        document.body.style.backgroundImage = `url('https://images.unsplash.com/photo-1541976076758-666565eeaf0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80')`;
         document.querySelector(".weather").style.display = "block";
         document.querySelector(".error").style.display = "none";
+
+        // Fetch and set the background image for the city
+        await setBackgroundImage(city);
     }
 }
+
+// async function setBackgroundImage(city) {
+//     try {
+//         const unsplashResponse = await fetch(`https://api.unsplash.com/search/photos?query=${city}&client_id=${unsplashApiKey}`);
+//         const unsplashData = await unsplashResponse.json();
+//         if (unsplashData.results && unsplashData.results.length > 0) {
+//             const imageUrl = unsplashData.results[0].urls.full;
+//             document.body.style.backgroundImage = `url('${imageUrl}')`;
+//         }
+//     } catch (error) {
+//         console.error("Error fetching background image:", error);
+//     }
+// }
 
 searchbtn.addEventListener("click", () => {
     const city = searchbox.value.trim();

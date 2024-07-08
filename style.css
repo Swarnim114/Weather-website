@@ -7,15 +7,16 @@
 html {
     scroll-behavior: smooth;
   }
-body {
+  body {
     margin: 0;
     padding: 0;
-    
-    background-image: url('https://source.unsplash.com/photos/paris');
+
+    background-image: url('assets/norway2.jpg'); /* or .png, .jpeg, etc. */
     background-size: cover;
     background-position: center;
     height: 100vh;
 }
+
 .main-box{
     position: sticky;
     top: 10%;
@@ -31,7 +32,7 @@ body {
     backdrop-filter: blur(11.5px);
     -webkit-backdrop-filter: blur( 11.5px );
     overflow: hidden;
-    
+
 }
 body::-webkit-scrollbar {
     width: 0px;
@@ -84,7 +85,7 @@ body::-webkit-scrollbar {
     margin-right: 15px;
     font-size: 14px;
     box-shadow: #22092C;
-    
+
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .search button{
@@ -102,7 +103,7 @@ body::-webkit-scrollbar {
     width: 25px;
     height: 25px;
     margin-top: 4px;
-    
+
 }
 .weather-icon{
     width: 170px;
@@ -110,7 +111,7 @@ body::-webkit-scrollbar {
     transition: transform 0.3s ease;
 }
 .weather-icon:hover {
-    transform: scale(1.1); 
+    transform: scale(1.1);
 }
 
 .weather h1{
